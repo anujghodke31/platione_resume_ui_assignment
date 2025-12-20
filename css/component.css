@@ -86,3 +86,12 @@
   transform: translateY(-4px);
   transition: 0.2s ease;
 }
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border-light);
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
