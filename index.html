@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/layout.css" />
   <link rel="stylesheet" href="css/components.css" />
 </head>
-<body>
+<body data-theme = "light">
   <main class="resume">
     <header class="header">
       <div class="header-left">
@@ -159,5 +159,19 @@
       <p>Available on request</p>
     </section>
   </main>
+
+
+  <script>
+  const toggle = document.querySelector(".theme-toggle");
+
+  toggle.addEventListener("click", () => {
+    const currentTheme = document.body.getAttribute("data-theme");
+    document.body.setAttribute(
+      "data-theme",
+      currentTheme === "dark" ? "light" : "dark"
+    );
+  });
+</script>
+
 </body>
 </html>
