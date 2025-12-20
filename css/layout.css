@@ -26,3 +26,16 @@
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-light);
 }
+
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .resume {
+    padding: 1.2rem;
+  }
+
+  .header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
