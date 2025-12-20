@@ -9,3 +9,8 @@
   color: var(--text-muted);
   margin-top: 0.3rem;
 }
+
+.location {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
