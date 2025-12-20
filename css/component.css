@@ -79,3 +79,10 @@
 .section ul li {
   margin-bottom: 0.4rem;
 }
+
+/* Hover Effects */
+.project-card:hover,
+.card:hover {
+  transform: translateY(-4px);
+  transition: 0.2s ease;
+}
