@@ -44,7 +44,12 @@ p, li {
   color: var(--text-dark);
 }
 
-/* Better spacing consistency */
+/*spacing*/
 .section {
   padding-top: 0.5rem;
+}
+
+/* paragraph readability */
+.section p {
+  max-width: 70ch;
 }
