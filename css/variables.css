@@ -9,12 +9,16 @@
   --bg-card: #ffffff;
 
   --border-light: #e5e7eb;
-
-  --radius-sm: 6px;
-  --radius-md: 12px;
-
-  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.06);
-
-  --font-main: 'Inter', sans-serif;
 }
 
+/* DARK THEME */
+[data-theme="dark"] {
+  --text-dark: #f9fafb;
+  --text-muted: #9ca3af;
+
+  --bg-main: #111827;
+  --bg-card: #1f2933;
+
+  --border-light: #374151;
+  --primary-light: #1e3a8a;
+}
