@@ -27,3 +27,12 @@
 .portfolio-links a {
   margin-right: 1rem;
 }
+
+/* Profile Image */
+.header-right img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: var(--shadow-sm);
+}
