@@ -88,10 +88,21 @@
 }
 
 .theme-toggle {
-  background: none;
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+
+  background-color: var(--bg-card);
+  color: var(--text-dark);
+
   border: 1px solid var(--border-light);
-  padding: 0.4rem 0.6rem;
+  padding: 0.45rem 0.6rem;
+
   border-radius: var(--radius-sm);
   cursor: pointer;
-  font-size: 0.9rem;
+
+  font-size: 1rem;
+  line-height: 1;
+
+  box-shadow: var(--shadow-sm);
 }
