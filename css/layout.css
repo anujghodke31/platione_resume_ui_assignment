@@ -5,3 +5,7 @@
   background: var(--bg-main);
 }
 
+/* Sections */
+.section {
+  margin-top: 2.5rem;
+}
