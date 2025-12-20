@@ -36,3 +36,14 @@
   object-fit: cover;
   box-shadow: var(--shadow-sm);
 }
+
+
+/* Cards */
+.card,
+.project-card {
+  background: var(--bg-card);
+  padding: 1.2rem;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1rem;
+}
