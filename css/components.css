@@ -1,19 +1,21 @@
-/* Header */
 .header h1 {
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: 700;
+  margin-bottom: 0.4rem;
 }
 
 .role {
   font-size: 1.1rem;
+  font-weight: 500;
   color: var(--text-muted);
-  margin-top: 0.3rem;
 }
 
 .location {
   font-size: 0.95rem;
   color: var(--text-muted);
+  margin-bottom: 0.6rem;
 }
+
 
 /* Contact & Links */
 .contact {
@@ -28,14 +30,37 @@
   margin-right: 1rem;
 }
 
+.contact a,
+.portfolio-links a {
+  color: var(--primary);
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.contact a:hover,
+.portfolio-links a:hover {
+  text-decoration: underline;
+}
+
+.header-right {
+  flex-shrink: 0;   /* prevents shrinking */
+  flex-grow: 0;     /* prevents stretching */
+  max-width: 220px;
+}
+
 /* Profile Image */
 .header-right img {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  display: block;
+  width: 220px;
+  height: 220px;
+
   object-fit: cover;
+  border-radius: 12px;
+
   box-shadow: var(--shadow-sm);
 }
+
+
 
 
 /* Cards */

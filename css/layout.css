@@ -18,11 +18,11 @@
 }
 
 .header {
-  position: relative; /* REQUIRED */
+  position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
+  align-items: center; /* important */
+  gap: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--border-light);
 }
@@ -31,12 +31,13 @@
 
 /* Responsive Layout */
 @media (max-width: 768px) {
-  .resume {
-    padding: 1.2rem;
-  }
-
   .header {
     flex-direction: column-reverse;
     text-align: center;
+  }
+
+  .header-right img {
+    width: 180px;
+    height: 180px;
   }
 }
