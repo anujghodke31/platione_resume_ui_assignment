@@ -38,3 +38,8 @@ h1, h2, h3 {
   line-height: 1.25;
   letter-spacing: -0.01em;
 }
+
+p, li {
+  font-size: 0.95rem;
+  color: var(--text-dark);
+}
