@@ -53,3 +53,8 @@ p, li {
 .section p {
   max-width: 70ch;
 }
+
+/* Lists alignment */
+.section ul {
+  margin-top: 0.5rem;
+}
