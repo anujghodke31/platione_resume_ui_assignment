@@ -1,0 +1,20 @@
+:root {
+  --primary: #2563eb;
+  --primary-light: #e0e7ff;
+
+  --text-dark: #111827;
+  --text-muted: #6b7280;
+
+  --bg-main: #f9fafb;
+  --bg-card: #ffffff;
+
+  --border-light: #e5e7eb;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+  --font-main: 'Inter', sans-serif;
+}
+
