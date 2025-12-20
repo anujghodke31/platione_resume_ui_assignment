@@ -62,3 +62,9 @@ p, li {
 body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px dashed var(--primary);
+  outline-offset: 4px;
+}
