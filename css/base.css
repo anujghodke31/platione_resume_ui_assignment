@@ -43,3 +43,8 @@ p, li {
   font-size: 0.95rem;
   color: var(--text-dark);
 }
+
+/* Better spacing consistency */
+.section {
+  padding-top: 0.5rem;
+}
