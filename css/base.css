@@ -45,12 +45,12 @@ p, li {
 }
 
 /*spacing*/
-.section {
+.section,.testimonials {
   padding-top: 0.5rem;
 }
 
 /* paragraph readability */
-.section p {
+.section p,.testimonials p {
   max-width: 70ch;
 }
 

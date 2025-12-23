@@ -16,7 +16,6 @@
   margin-bottom: 0.6rem;
 }
 
-
 /* Contact & Links */
 .contact {
   margin-top: 0.8rem;
@@ -53,19 +52,14 @@
   display: block;
   width: 220px;
   height: 220px;
-
   object-fit: cover;
   border-radius: 12px;
-
   box-shadow: var(--shadow-sm);
 }
 
-
-
-
 /* Cards */
 .card,
-.project-card {
+.project-card,.cards{
   background: var(--bg-card);
   padding: 1.2rem;
   border-radius: var(--radius-md);
@@ -107,7 +101,7 @@
 
 /* Hover Effects */
 .project-card:hover,
-.card:hover {
+.card:hover,.cards:hover {
   transform: translateY(-4px);
   transition: 0.2s ease;
 }
@@ -115,6 +109,24 @@
 .header-left {
   position: relative;
 }
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.cards {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
 
 .theme-toggle {
   position: static;
